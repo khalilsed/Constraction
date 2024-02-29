@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/Contactstyle.css">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../style/styleG.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="icon" href="../style/images/icons8-building-construction-20.png"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <div class="nav-header">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../style/images/luxury.png" alt="logo">
+                </a>
+            </div>
+            <div style="margin-right: 2%;" class="nav-links" id="navLinks">
+                <img src="../style/images/icons8-close-24.png" class="fa-solid fa-user-plus" onclick="closemenu()"></img>
+                <ul>
+                    <li class="menu"><a href="../index.html" class="menuchield">HOME</a></li>
+                    <li class="menu"><a href="./About.html" class="menuchield">ABOUT</a></li>
+                    <li class="menu"><a href="./projects.html" class="menuchield">PROJECTS</a></li>
+                    <li class="menu"><a href="./Team.html" class="menuchield">TEAM</a></li>
+                    <li class="menu"><a href="./Contact.html" class="menuchield">CONTACT</a></li>
+                    <li class="menu"><a href="./devis.html" class="menuchieldlog">COMMAND</a></li>
+                </ul>
+            </div>
+            <img src="../style/images/icons8-menu-24.png" class="fa-solid fa-bars" onclick="ouvremenu()"></img>
+        </div>      
+        </nav>
+         
+        <h1 class="ct">Contact Us</h1>
+    </section>
+    
+
+    <!-- ------ JS lel menu ------- -->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function ouvremenu(){
+            navLinks.style.right="-18px";
+
+        }
+        function closemenu(){
+            navLinks.style.right="-200px"
+        }
+
+
+    </script>
+    <!--Contact us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.86254299021!2d10.181626875008373!3d36.79784596783361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd346d024882b3%3A0xcb9d92ca58bdf4db!2s1001%2C%2047%20Farhat%20Hached%2C%20Tunis!5e0!3m2!1sen!2stn!4v1682718284494!5m2!1sen!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-colf">
+                <div>
+                    <div class="iconf">
+                        <img src="../style/icons/home_icon.ico" >
+                    </div>
+                    <span>
+                        <h5>47, Avenue Farhat Hached 1001.</h5> 
+                        <P>Tunis. Tunisie</P> 
+                    </span>
+                </div>
+                <div>
+                    <div class="iconf">
+                        <img src="../style/icons/phone-call.ico" >
+                    </div>  
+                    <span>
+                        <h5>+216 23487890</h5> 
+                        <P>Monday to saturday, 10AM to 6PM</P> 
+                    </span>
+                </div>
+                <div>
+                    <div class="iconf">
+                        <img src="../style/icons/mail-black.ico" >
+                    </div>
+                    <span>
+                        <h5>infoKS@gmail.com</h5> 
+                        <P>Email us</P> 
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col1">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email adress" required>
+                    <input type="tel" name="phone" placeholder="Enter your phone" required>
+                    <input type="text" name="project" placeholder="Enter your project" required>
+                    <textarea  rows="8" name="message" placeholder="Description" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="contact-col">
+                        <div>
+                            <div class="icon">
+                                <i class="uil uil-home"></i>
+                            </div>
+                            <span>
+                                <h5>47, Avenue Farhat Hached 1001.</h5> 
+                                <P>Tunis. Tunisie</P> 
+                            </span>
+                        </div>
+                        <div>
+                            <div class="icon">
+                                <i class="uil uil-phone"></i>                                
+                            </div>  
+                            <span>
+                                <h5>+216 23487890</h5> 
+                                <P>Monday to saturday, 10AM to 6PM</P> 
+                            </span>
+                        </div>
+                        <div>
+                            <div class="icon">
+                                <i class="uil uil-envelope"></i>
+                            </div>
+                            <span>
+                                <h5>infoKS@gmail.com</h5> 
+                                <P>Email us</P> 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="../pages/About.html">about us</a></li>
+                        <li><a href="../index.html">our services</a></li>
+                        <li><a href="../pages/projects.html">our projects</a></li>
+                        <li><a href="../pages/Team.html">our team</a></li>
+                        <li><a href="../pages/devis.html">formulaire de devis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="uil uil-facebook"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-linkedin"></i></a>
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+    
+</body>
+</html>

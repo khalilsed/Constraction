@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Devis</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="../style/devis.css">
+    <link rel="icon" href="../style/images/icons8-building-construction-20.png">
+
+</head>
+<body>
+    
+    <div class="container">
+        <header>Start a project</header>
+        <form action="#">
+            <div class="form first">
+
+
+
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Enter your ccupation" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="details address">
+                    <span class="title">Address Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required>
+                        </div>
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+
+
+                
+            </div>
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Project Information</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Kind of Project :</label>
+                            <select required>
+                                <option disabled selected>Select Project</option>
+                                <option>Construction</option>
+                                <option>Renovation</option>
+                                <option>Extension</option>
+                            </select>                        
+                        </div>
+                        <div class="input-field">
+                            <label>What type of construction is desired ?</label>
+                            <select required>
+                                <option disabled selected>Select type</option>
+                                <option>Modern House</option>
+                                <option>Traditional House</option>
+                                <option>Individual House</option>
+                                <option>Terraced House</option>
+                                <option>Timber House</option>
+                                <option>Eco-Friendly House</option>
+                                <option>TownHouse</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>What is the area of the house to be built ?</label>
+                            <input type="number" placeholder="Enter area (m²)" required>
+                        </div>
+                        <div class="input-field">
+                            <label>What is the desired number of pieces ?</label>
+                            <input type="number" placeholder="Enter number of pieces" required>
+                        </div>
+                        <div class="input-field">
+                            <label>What is the desired architectural style ?</label>
+                            <input type="text" placeholder="Enter style" required>
+                        </div>
+                        <div class="input-field">
+                            <label>What is your construction budget ?</label>
+                            <input type="number" placeholder="Enter your budget (DNT)" required>
+                        </div>
+                        
+                    </div>
+                    <div class="details family">
+                        <span class="title">Services Requested</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Services you need for this project :</label>
+                                <select required>
+                                    <option disabled selected>Select services</option>
+                                    <option>Architectural design</option>
+                                    <option>Construction plans</option>
+                                    <option>Building permits</option>
+                                    <option>Electricity</option>
+                                    <option>Plumbing</option>
+                                    <option>Heating</option>
+                                    <option>Ventilation</option>
+                                    <option>Insulation</option>
+                                    <option>Carpentry</option>
+                                    <option>Flooring</option>
+                                    <option>Wall covering</option>
+                                    <option>Outdoor facilities (garden, terrace, swimming pool, etc.)</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <label>Desired start date :</label>
+                                <input type="date" placeholder="Enter date" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Desired completion date :</label>
+                                <input type="date" placeholder="Entry date" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Have you been involved with us ?</label>
+                                <select required>
+                                    <option disabled selected>Select answer</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+
+                            </div>
+                            <div class="input-field">
+                                <label>How did you hear about our company ?</label>
+                                <input type="text" placeholder="Enter your answer" required>
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>Extra comments :</label>
+                                <input type="text" placeholder="Do you have something to add ?" required>
+                            </div>
+                        </div>
+                </div>
+                
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText"> <a href="../index.html"> Submit</a></span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+                 
+            </div>
+        </form>
+    </div>
+    <script src="devis.js"></script>
+</body>
+</html>
